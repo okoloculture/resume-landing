@@ -561,7 +561,7 @@ export default function ResumeLanding() {
                 WebkitTextFillColor: "transparent",
               }}
             >
-              <TypingText text="Рем Юрков" speed={80} delay={300} />
+              <TypingText text="Рэм Юрков" speed={80} delay={300} />
             </h1>
 
             <p
@@ -1047,7 +1047,7 @@ export default function ResumeLanding() {
                 opacity: 0.5,
               }}
             >
-              © 2026 Рем Юрков — Создано на React & shadcn/ui
+              © 2026 Рэм Юрков — Создано на React & shadcn/ui
             </p>
           </div>
         </FadeInSection>
