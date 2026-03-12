@@ -47,7 +47,7 @@ const theme = {
 
 // ─── Data ───
 const skills = {
-  Backend: [
+  "Бэкенд": [
     { name: "Node.js", level: 95 },
     { name: "NestJS", level: 95 },
     { name: "TypeScript", level: 92 },
@@ -56,19 +56,19 @@ const skills = {
     { name: "REST API", level: 95 },
     { name: "WebSocket", level: 80 },
   ],
-  Frontend: [
+  "Фронтенд": [
     { name: "React", level: 80 },
     { name: "Next.js", level: 78 },
     { name: "Vue.js", level: 75 },
     { name: "HTML5/CSS3", level: 85 },
   ],
-  Databases: [
+  "Базы данных": [
     { name: "PostgreSQL", level: 90 },
     { name: "MongoDB", level: 88 },
     { name: "MySQL", level: 85 },
     { name: "Redis", level: 88 },
   ],
-  Infrastructure: [
+  "Инфраструктура": [
     { name: "Docker", level: 88 },
     { name: "AWS", level: 80 },
     { name: "Kafka", level: 85 },
@@ -81,75 +81,74 @@ const skills = {
 
 const experience = [
   {
-    company: 'LLC "Axma"',
-    role: "Backend Developer",
-    period: "Sep 2025 — Present",
-    duration: "6 mo",
+    company: 'ООО «Аксма»',
+    role: "Backend-разработчик",
+    period: "Сен 2025 — Настоящее время",
+    duration: "6 мес",
     color: theme.accent,
     highlights: [
-      "Designed microservice system for pre-trip medical examinations with web interface, session audit, and quality reports",
-      "Developed event-driven notification service with configurable rules, templates, and multi-channel delivery (Telegram, logging)",
+      "Спроектировал микросервисную систему предрейсовых медосмотров с веб-интерфейсом, аудитом сессий и отчётами качества",
+      "Разработал событийный сервис уведомлений с настраиваемыми правилами, шаблонами и многоканальной доставкой (Telegram, логирование)",
     ],
     stack: ["NestJS", "TypeORM", "MySQL", "Docker"],
   },
   {
-    company: "NNADM — National Academy of Evidence-Based Medicine",
-    role: "Lead Backend Developer",
-    period: "Nov 2024 — Sep 2025",
-    duration: "11 mo",
+    company: "ННАДМ — Национальная академия доказательной медицины",
+    role: "Ведущий backend-разработчик",
+    period: "Ноя 2024 — Сен 2025",
+    duration: "11 мес",
     color: theme.green,
     highlights: [
-      "Architected Git-like data versioning platform for collaborative medical research — branching, forking, rollback without data loss",
-      "Designed granular RBAC with data anonymization meeting security and privacy requirements",
-      "Co-authored technical proposal that secured government grant and private investment",
+      "Спроектировал Git-подобную платформу версионирования данных для совместных медицинских исследований — ветвление, форки, откат без потери данных",
+      "Разработал гранулярную RBAC-систему с анонимизацией данных, соответствующую требованиям безопасности и конфиденциальности",
+      "Соавтор технического предложения, обеспечившего государственный грант и частные инвестиции",
     ],
     stack: ["NestJS", "MongoDB", "Redis", "Kafka"],
   },
   {
     company: "Digital Agency",
-    role: "Fullstack Developer",
-    period: "Jun 2023 — Nov 2024",
-    duration: "1 yr 6 mo",
+    role: "Fullstack-разработчик",
+    period: "Июн 2023 — Ноя 2024",
+    duration: "1 год 6 мес",
     color: theme.cyan,
     highlights: [
-      "Built Digital Asset Management platform — file storage, access control, previews, CDN delivery",
-      "Full-cycle development from NestJS backend to Next.js (React) frontend",
+      "Создал платформу управления цифровыми активами — хранение файлов, контроль доступа, превью, CDN-доставка",
+      "Полный цикл разработки от NestJS-бэкенда до Next.js (React) фронтенда",
     ],
     stack: ["NestJS", "Next.js", "PostgreSQL", "AWS S3", "Lambda", "CloudFront", "CDK"],
   },
   {
     company: "WorkBox",
-    role: "Lead Backend Developer",
-    period: "Jan 2023 — Jun 2023",
-    duration: "6 mo",
+    role: "Ведущий backend-разработчик",
+    period: "Янв 2023 — Июн 2023",
+    duration: "6 мес",
     color: theme.amber,
     highlights: [
-      "Sole backend developer — built scalable microservice architecture from scratch",
-      "Redis caching cut API response times by 30%",
-      "Project secured investment and grants from Rostelecom",
+      "Единственный backend-разработчик — построил масштабируемую микросервисную архитектуру с нуля",
+      "Кэширование Redis сократило время ответа API на 30%",
+      "Проект получил инвестиции и гранты от Ростелекома",
     ],
     stack: ["NestJS", "MongoDB", "Kafka", "Redis", "Docker"],
   },
   {
-    company: 'LLC "MedSoft"',
-    role: "Fullstack Developer",
-    period: "Nov 2021 — Dec 2022",
-    duration: "1 yr 2 mo",
+    company: 'ООО «МедСофт»',
+    role: "Fullstack-разработчик",
+    period: "Ноя 2021 — Дек 2022",
+    duration: "1 год 2 мес",
     color: "#ef4444",
     highlights: [
-      "Developed key modules of pharmaceutical tracking system serving healthcare facilities across 3 regions",
-      "1,000+ daily operations — write-off, rollback, drug movement with full audit trail",
-      "Built Vue.js dashboards, monitoring panels, and dynamic reports",
+      "Разработал ключевые модули системы отслеживания фармпрепаратов, обслуживающей медучреждения в 3 регионах",
+      "1 000+ ежедневных операций — списание, откат, движение препаратов с полным аудитом",
+      "Создал Vue.js-дашборды, панели мониторинга и динамические отчёты",
     ],
     stack: ["Node.js", "Vue.js", "PostgreSQL", "SQL"],
   },
 ];
 
 const stats = [
-  { label: "Years of Experience", value: "4+", icon: Briefcase },
-  { label: "Commercial Projects", value: "5", icon: Layers },
-  { label: "Microservices Built", value: "15+", icon: Server },
-  { label: "Regions Served", value: "3", icon: Globe },
+  { label: "Лет опыта", value: "4+", icon: Briefcase },
+  { label: "Коммерческих проектов", value: "5", icon: Layers },
+  { label: "Микросервисов создано", value: "15+", icon: Server },
 ];
 
 // ─── Components ───
@@ -228,7 +227,7 @@ function SectionTitle({ icon: Icon, children }) {
 // ─── Main ───
 
 export default function ResumeLanding() {
-  const [activeSkillTab, setActiveSkillTab] = useState("Backend");
+  const [activeSkillTab, setActiveSkillTab] = useState("Бэкенд");
   const [hoveredExp, setHoveredExp] = useState(null);
   const [loaded, setLoaded] = useState(false);
 
@@ -241,10 +240,10 @@ export default function ResumeLanding() {
   }, []);
 
   const skillIcons = {
-    Backend: Server,
-    Frontend: Code2,
-    Databases: Database,
-    Infrastructure: Cloud,
+    "Бэкенд": Server,
+    "Фронтенд": Code2,
+    "Базы данных": Database,
+    "Инфраструктура": Cloud,
   };
 
   return (
@@ -323,7 +322,7 @@ export default function ResumeLanding() {
                 letterSpacing: "0.05em",
               }}
             >
-              AVAILABLE FOR HIRE
+              ОТКРЫТ К ПРЕДЛОЖЕНИЯМ
             </span>
           </div>
 
@@ -339,7 +338,7 @@ export default function ResumeLanding() {
               WebkitTextFillColor: "transparent",
             }}
           >
-            Rem Iurkov
+            Рем Юрков
           </h1>
 
           <p
@@ -351,7 +350,7 @@ export default function ResumeLanding() {
               letterSpacing: "-0.01em",
             }}
           >
-            Node.js Backend Engineer{" "}
+            Node.js Backend-инженер{" "}
             <span style={{ color: theme.accent }}>·</span> Middle+
           </p>
 
@@ -364,19 +363,19 @@ export default function ResumeLanding() {
               margin: "0 0 28px",
             }}
           >
-            4+ years building high-load microservice systems with NestJS, TypeScript,
-            Kafka, and cloud infrastructure. Backend-first fullstack with React/Next.js
-            experience. I design architectures, optimize databases, and ship products
-            that scale.
+            4+ года опыта в создании высоконагруженных микросервисных систем на NestJS, TypeScript,
+            Kafka и облачной инфраструктуре. Backend-first fullstack с опытом React/Next.js.
+            Проектирую архитектуры, оптимизирую базы данных и выпускаю продукты,
+            которые масштабируются.
           </p>
 
           {/* Contact pills */}
           <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
             {[
-              { icon: MapPin, text: "Moscow, Russia", href: null },
+              { icon: MapPin, text: "Москва, Россия", href: null },
               { icon: Mail, text: "okoloculture@mail.ru", href: "mailto:okoloculture@mail.ru" },
               { icon: Send, text: "@ok0l0culture", href: "https://t.me/ok0l0culture" },
-              { icon: Globe, text: "English B2", href: null },
+              { icon: Globe, text: "Английский B2", href: null },
             ].map((item, i) => (
               <a
                 key={i}
@@ -452,7 +451,7 @@ export default function ResumeLanding() {
 
         {/* ═══ SKILLS ═══ */}
         <div style={{ marginBottom: 64 }}>
-          <SectionTitle icon={Zap}>Tech Stack</SectionTitle>
+          <SectionTitle icon={Zap}>Стек технологий</SectionTitle>
 
           {/* Tabs */}
           <div
@@ -537,7 +536,7 @@ export default function ResumeLanding() {
 
         {/* ═══ EXPERIENCE ═══ */}
         <div style={{ marginBottom: 64 }}>
-          <SectionTitle icon={Briefcase}>Experience</SectionTitle>
+          <SectionTitle icon={Briefcase}>Опыт работы</SectionTitle>
 
           <div style={{ display: "grid", gap: 16 }}>
             {experience.map((exp, i) => (
@@ -665,17 +664,17 @@ export default function ResumeLanding() {
 
         {/* ═══ EDUCATION ═══ */}
         <div style={{ marginBottom: 64 }}>
-          <SectionTitle icon={GraduationCap}>Education</SectionTitle>
+          <SectionTitle icon={GraduationCap}>Образование</SectionTitle>
           <div style={{ display: "grid", gap: 12 }}>
             {[
               {
-                school: "Moscow State University of Technologies and Management",
-                degree: "Bachelor's in Applied Computer Science",
+                school: "Московский государственный университет технологий и управления",
+                degree: "Бакалавриат, Прикладная информатика",
                 year: "2026",
               },
               {
-                school: "School 21 (Ecole 42 methodology)",
-                degree: "Advanced Training in Software Engineering",
+                school: "Школа 21 (методология Ecole 42)",
+                degree: "Повышение квалификации, Программная инженерия",
                 year: "2025",
               },
             ].map((edu, i) => (
@@ -723,12 +722,12 @@ export default function ResumeLanding() {
 
         {/* ═══ LANGUAGES ═══ */}
         <div style={{ marginBottom: 64 }}>
-          <SectionTitle icon={MessageSquare}>Languages</SectionTitle>
+          <SectionTitle icon={MessageSquare}>Языки</SectionTitle>
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
             {[
-              { lang: "Russian", level: "Native", pct: 100 },
-              { lang: "English", level: "B2 — Upper Intermediate", pct: 72 },
-              { lang: "French", level: "B1 — Intermediate", pct: 55 },
+              { lang: "Русский", level: "Родной", pct: 100 },
+              { lang: "Английский", level: "B2 — Выше среднего", pct: 72 },
+              { lang: "Французский", level: "B1 — Средний", pct: 55 },
             ].map((l) => (
               <div
                 key={l.lang}
@@ -766,7 +765,7 @@ export default function ResumeLanding() {
               opacity: 0.5,
             }}
           >
-            © 2026 Rem Iurkov — Built with React & shadcn/ui
+            © 2026 Рем Юрков — Создано на React & shadcn/ui
           </p>
         </div>
       </div>
